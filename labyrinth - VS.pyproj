@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76375c6b-1d00-4f7c-81af-7903d278e5a2}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Backups\Backup 1 - moving random board\main.py" />
+    <Compile Include="Backups\Backup 1 - moving random board\settings.py" />
+    <Compile Include="Backups\Backup 1 - moving random board\sprites.py" />
+    <Compile Include="Backups\Backup 2 - correct board w stationary images\main.py" />
+    <Compile Include="Backups\Backup 2 - correct board w stationary images\settings.py" />
+    <Compile Include="Backups\Backup 2 - correct board w stationary images\sprites.py" />
+    <Compile Include="Backups\Backup 3 - all images board w extra rotating tile\main.py" />
+    <Compile Include="Backups\Backup 3 - all images board w extra rotating tile\settings.py" />
+    <Compile Include="Backups\Backup 3 - all images board w extra rotating tile\sprites.py" />
+    <Compile Include="Backups\Backup 4 - full board and player1 can move around it correctly\main.py" />
+    <Compile Include="Backups\Backup 4 - full board and player1 can move around it correctly\settings.py" />
+    <Compile Include="Backups\Backup 4 - full board and player1 can move around it correctly\sprites.py" />
+    <Compile Include="Backups\Backup 5 -pretty much done\main.py" />
+    <Compile Include="Backups\Backup 5 -pretty much done\settings.py" />
+    <Compile Include="Backups\Backup 5 -pretty much done\sprites.py" />
+    <Compile Include="Backups\Backup 6 - FINAL i think\main.py" />
+    <Compile Include="Backups\Backup 6 - FINAL i think\settings.py" />
+    <Compile Include="Backups\Backup 6 - FINAL i think\sprites.py" />
+    <Compile Include="main.py" />
+    <Compile Include="settings.py" />
+    <Compile Include="sprites.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\background.jpg" />
+    <Content Include="images\background.png" />
+    <Content Include="images\bat.png" />
+    <Content Include="images\beetle.png" />
+    <Content Include="images\book.png" />
+    <Content Include="images\candlestick.png" />
+    <Content Include="images\coinbag.png" />
+    <Content Include="images\crown.png" />
+    <Content Include="images\dragon.png" />
+    <Content Include="images\gem.png" />
+    <Content Include="images\genie.png" />
+    <Content Include="images\ghost.png" />
+    <Content Include="images\helmet.png" />
+    <Content Include="images\key.png" />
+    <Content Include="images\lizard.png" />
+    <Content Include="images\map.png" />
+    <Content Include="images\moth.png" />
+    <Content Include="images\mouse.png" />
+    <Content Include="images\owl.png" />
+    <Content Include="images\question.png" />
+    <Content Include="images\ring.png" />
+    <Content Include="images\skull.png" />
+    <Content Include="images\spiderweb.png" />
+    <Content Include="images\sword.png" />
+    <Content Include="images\treasurechest.png" />
+    <Content Include="images\troll.png" />
+    <Content Include="images\wand.png" />
+    <Content Include="images\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backups\" />
+    <Folder Include="Backups\Backup 1 - moving random board" />
+    <Folder Include="Backups\Backup 2 - correct board w stationary images" />
+    <Folder Include="Backups\Backup 3 - all images board w extra rotating tile" />
+    <Folder Include="Backups\Backup 4 - full board and player1 can move around it correctly" />
+    <Folder Include="Backups\Backup 5 -pretty much done" />
+    <Folder Include="Backups\Backup 6 - FINAL i think" />
+    <Folder Include="images" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
